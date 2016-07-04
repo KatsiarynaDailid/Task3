@@ -61,7 +61,7 @@ namespace UIEquation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Katsiaryna_Dailid\Documents\1.txt.
+        ///   Looks up a localized string similar to C:\Users\Katsiaryna_Dailid\Documents\2.txt.
         /// </summary>
         internal static string Path {
             get {

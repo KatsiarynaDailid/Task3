@@ -15,7 +15,7 @@ namespace HW_29._06_1
            
             do
             {
-                Console.WriteLine("Enter the name of the directory: ");
+                Console.WriteLine("Enter the name of the directory, where you want to store you new file: ");
                 dir = Console.ReadLine();
                 newPath = path + dir;
                 if (Directory.Exists(newPath))
@@ -43,7 +43,7 @@ namespace HW_29._06_1
          
             do
             {
-                Console.WriteLine("Enter the name of the file:");
+                Console.WriteLine("Enter the name of the new file(for storing the information):");
                 fileName = Console.ReadLine();
                 pathToTheFile = newPath +"\\"+ fileName;
                 

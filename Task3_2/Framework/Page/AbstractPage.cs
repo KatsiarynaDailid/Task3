@@ -4,16 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW_29._06_2
+namespace Framework
 {
-    abstract class Page
+    public abstract class AbstractPage
     {
-
-        public abstract void LoadPage();
-
-
-            
-
+        public abstract Boolean LoadPage();
 
     }
 }

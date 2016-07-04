@@ -21,7 +21,7 @@ namespace UIMatrix
                 }
                 Console.WriteLine();
             }
-
+            Console.WriteLine("______________________________________________________");
         }
 
 

@@ -64,7 +64,7 @@ namespace SolvingEquation
                 row = Int32.Parse(dementions[0]);
                 col = Int32.Parse(dementions[1]);
                 matrix = new double[row, col];
-                Console.WriteLine(row + " " + col);
+              //  Console.WriteLine(row + " " + col);
                 for (int i = 0; i < row; i++)
                 {
                     str = reader.ReadLine();
@@ -73,7 +73,7 @@ namespace SolvingEquation
                     {
 
                         matrix[i, j] = Double.Parse(cols[j]);
-                        Console.WriteLine(cols[j]);
+                       // Console.WriteLine(cols[j]);
                     }
         }
             }            
@@ -90,6 +90,12 @@ namespace SolvingEquation
             int n2 = secondMatrix.row;
             int m2 = secondMatrix.col;
 
+            if (m1 != n2 && m2 != n1 ) {
+
+                throw new Exception();
+            }
+
+
             matrix = new double[row, col];
             Matrix resultMatrix = new Matrix(matrix, n1,m2);
 
@@ -101,9 +107,9 @@ namespace SolvingEquation
                     {
                         resultMatrix.matrix[row, col] += firstMatrix.matrix[row, inner] * secondMatrix.matrix[inner, col];
                     }
-                    Console.WriteLine(resultMatrix.matrix[row, col] + "  ");
+                   // Console.WriteLine(resultMatrix.matrix[row, col] + "  ");
                 }
-                Console.WriteLine("\n");
+             //   Console.WriteLine("\n");
             }
 
             return resultMatrix ;

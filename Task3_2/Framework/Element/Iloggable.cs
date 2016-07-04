@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW_29._06_2
+namespace Framework
 {
-    public class Class1
+    interface Iloggable
     {
+        void Log();
     }
 }

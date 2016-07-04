@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HW_29.06_2")]
+[assembly: AssemblyTitle("TestForLogic")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EPAM Systems")]
-[assembly: AssemblyProduct("HW_29.06_2")]
+[assembly: AssemblyProduct("TestForLogic")]
 [assembly: AssemblyCopyright("Copyright © EPAM Systems 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("806cde10-45bf-4a26-b42a-0a942b29bc75")]
+[assembly: Guid("5780b2cb-2e0a-47e6-9f6e-c3d22eb0e608")]
 
 // Version information for an assembly consists of the following four values:
 //

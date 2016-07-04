@@ -12,6 +12,8 @@ namespace UIEquation
         public  void GetCoffOfLinearEq()
         {
 
+            Console.WriteLine("You chose the linear type of equation and you should enter two coefficients, a and d (integer or real numbers):\n" +
+               "ax+b=0");
             Console.WriteLine("Enter the first coefficient: ");
             double b = CheckTheDouble();
 
@@ -34,7 +36,8 @@ namespace UIEquation
 
         public  void GetCoffOfQuadraticEq()
         {
-
+            Console.WriteLine("You chose the quadratic type of equation and you should enter three coefficients, a, d and c (integer or real numbers):\n" +
+               "ax^2+bx+c=0");
             Console.WriteLine("Enter the first coefficient: ");
             double a = CheckTheDouble();
 

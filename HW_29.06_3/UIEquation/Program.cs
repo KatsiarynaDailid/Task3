@@ -29,7 +29,7 @@ namespace UIEquation
 
                 } else {
                
-                    Console.WriteLine("You entered wrong simbol, try again...");
+                    Console.WriteLine("You entered wrong symbol, try again...");
                     continue;
                 }
 
